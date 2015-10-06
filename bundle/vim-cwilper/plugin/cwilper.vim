@@ -41,3 +41,6 @@ map <C-U> :res -1<CR>
 map <C-I> :vertical res -1<CR>
 map <C-O> :vertical res +1<CR>
 map <C-P> :res +1<CR>
+
+" Use <C-W>rtw to remove all trailing whitespace
+nnoremap <C-W>rtw :%s/\s\+$//e<CR>
